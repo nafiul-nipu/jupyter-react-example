@@ -1,6 +1,7 @@
 README.md
 setup.py
 example/__init__.py
+example/testcomponent.py
 example/thing.py
 example.egg-info/PKG-INFO
 example.egg-info/SOURCES.txt

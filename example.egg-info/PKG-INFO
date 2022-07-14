@@ -2,9 +2,8 @@ Metadata-Version: 2.1
 Name: example
 Version: 0.2.2
 Summary: An example wrapper around react components for use in jupyter notebooks
-Home-page: https://github.com/timbr-io/jupyter-react-example
-Author: Chris Helm
-Author-email: chelm@timbr.io
+Home-page: https://github.com/RFirstman/jupyter-react-example
+Author: Robert Firstman
 License: MIT
 Platform: UNKNOWN
 

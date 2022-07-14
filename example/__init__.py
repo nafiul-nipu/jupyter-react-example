@@ -1,4 +1,4 @@
-from .thing import Thing
+from .testcomponent import TestComponent
 
 def _jupyter_nbextension_paths():
     return [{

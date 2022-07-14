@@ -1,5 +1,5 @@
-import Thing from './thing.js';
+import TestComponent from './testcomponent';
 
 export default {
-  Thing
+  TestComponent
 };

@@ -1,5 +1,6 @@
 import JupyterReact from 'jupyter-react-js';
 import components from './components';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function load_ipython_extension () {
   let comm_channel = "react.jupyter.test";

@@ -22,14 +22,27 @@ module.exports = [
       module : {
         loaders : [
           {
-            test: /\.js?$/,
+            test: /\.(js|jsx|ts|tsx)?$/,
             exclude: /(node_modules|bower_components)/,
             loaders: [`babel?${JSON.stringify( babelSettings )}`]
           },
-          { test: /\.css$/, loader: "style-loader?sourceMap!css-loader?importLoaders=1" },
+          // { test: /\.css$/, loader: "style-loader?sourceMap!css-loader?importLoaders=1" },
           {
             test: /\.json$/, loader: 'json-loader'
-          }
+          },
+          {
+            test: /\.s?[ac]ss$/,
+            loaders: ['style-loader', 'css-loader', 'sass-loader'],
+            exclude: [/node_modules/],
+          },
+            {
+              test: /\.css$/,
+              loaders: [
+                'style-loader',
+                'css-loader'
+              ]
+            }
+
         ]
       }
     }

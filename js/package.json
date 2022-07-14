@@ -20,11 +20,19 @@
     "jsx-loader": "^0.13.2",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
+    "postcss": "^8.4.14",
+    "postcss-loader": "^7.0.1",
+    "sass": "^1.53.0",
+    "sass-loader": "^12.6.0",
     "style-loader": "^0.13.1",
     "transform-loader": "^0.2.3",
     "webpack": "^1.15.0"
   },
   "dependencies": {
+    "@svgr/webpack": "^5.5.0",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "axios": "^0.27.2",
     "babel-cli": "^6.10.1",
     "babel-loader": "^6.2.4",
     "babel-plugin-add-module-exports": "^0.2.1",
@@ -32,8 +40,17 @@
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-1": "^6.5.0",
+    "bootstrap": "^5.1.3",
+    "d3": "^7.4.4",
+    "fs-extra": "^10.0.0",
+    "jquery": "^3.6.0",
     "jupyter-react-js": "^0.5.0",
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.4.0",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.5",
+    "react-dropdown": "^1.10.0",
+    "react-icons": "^4.3.1",
+    "typescript": "^4.6.4"
   }
 }
